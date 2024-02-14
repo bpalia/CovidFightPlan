@@ -10,6 +10,8 @@ import plotly.graph_objs as go
 import matplotlib.ticker as mticker
 from typing import List
 from seaborn import FacetGrid
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Parameters for plots
 my_colors = ["steelblue", "coral", "firebrick"]
